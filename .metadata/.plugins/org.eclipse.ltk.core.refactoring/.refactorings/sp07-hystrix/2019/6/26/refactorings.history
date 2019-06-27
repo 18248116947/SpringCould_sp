@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.tedu.sp06.consoller&apos; to &apos;com.tedu.sp07.consoller&apos;&#x0D;&#x0A;- Original project: &apos;sp07-hystrix&apos;&#x0D;&#x0A;- Original element: &apos;sp07-hystrix/src/main/java/com.tedu.sp06.consoller&apos;&#x0D;&#x0A;- Renamed element: &apos;sp07-hystrix/src/main/java/com.tedu.sp07.consoller&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.tedu.sp06.consoller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.tedu.sp06.consoller" name="com.tedu.sp07.consoller" qualified="false" references="true" stamp="1561552119212" textual="false" version="1.0"/>
+</session>

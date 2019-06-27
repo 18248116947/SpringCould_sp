@@ -1,0 +1,27 @@
+package com.tedu.sp06;
+/**
+ *    创建 RestTemplate 实例
+* RestTemplate 是用来调用其他微服务的工具类，封装了远程调用代码，提供了一组用于远程调用的模板方法，
+*     例如：getForObject()、postForObject() 等
+ */
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+@EnableDiscoveryClient
+@SpringBootApplication
+public class Sp06RibbonApplication {
+	
+	//创建 RestTemplate 实例，并存入 spring 容器
+	@Bean
+	public RestTemplate getRestTemplate() {
+		return new RestTemplate();
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(Sp06RibbonApplication.class, args);
+	}
+
+}

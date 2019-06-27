@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: hystrix
+    
+server:
+  port: 3001
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+
+ribbon:
+  MaxAutoRetriesNextServer: 2
+  #对连接超时、读取超时都进行重试
+  MaxAutoRetries: 1
+  #更换实例的次数
+  OkToRetryOnAllOperations: true      
+ #当前实例重试次数，尝试失败会更换下一个实例 
+ 
+ #为了测试 hystrix 短路功能，我们把 hystrix 等待超时设置得非常小（500毫秒）,此设置一般应大于 ribbon 的重试超时时长，例如 10 秒
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
