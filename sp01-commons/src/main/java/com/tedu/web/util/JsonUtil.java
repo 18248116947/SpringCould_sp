@@ -1,5 +1,4 @@
 package com.tedu.web.util;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,9 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.commons.lang3.StringUtils;
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;
@@ -30,9 +27,7 @@ import com.fasterxml.jackson.datatype.guava.GuavaModule;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
-
 import lombok.extern.slf4j.Slf4j;
-
 @Slf4j
 public class JsonUtil {
     private static ObjectMapper mapper;
@@ -53,19 +48,15 @@ public class JsonUtil {
     private static void initMapper() {
         mapper = new ObjectMapper();
     }
-
     private static void configCommon() {
         config(mapper);
     }
-
     private static void configPropertyInclusion() {
         mapper.setSerializationInclusion(DEFAULT_PROPERTY_INCLUSION);
     }
-
     private static void configIndentOutput() {
         mapper.configure(SerializationFeature.INDENT_OUTPUT, IS_ENABLE_INDENT_OUTPUT);
     }
-
     private static void config(ObjectMapper objectMapper) {
         objectMapper.enable(JsonGenerator.Feature.WRITE_BIGDECIMAL_AS_PLAIN);
         objectMapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
@@ -91,12 +82,10 @@ public class JsonUtil {
         DEFAULT_PROPERTY_INCLUSION = inclusion;
         configPropertyInclusion();
     }
-
     public static void setIndentOutput(boolean isEnable) {
         IS_ENABLE_INDENT_OUTPUT = isEnable;
         configIndentOutput();
     }
-
     public static <V> V from(URL url, Class<V> c) {
         try {
             return mapper.readValue(url, c);
@@ -105,7 +94,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(InputStream inputStream, Class<V> c) {
         try {
             return mapper.readValue(inputStream, c);
@@ -114,7 +102,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(File file, Class<V> c) {
         try {
             return mapper.readValue(file, c);
@@ -123,7 +110,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(Object jsonObj, Class<V> c) {
         try {
             return mapper.readValue(jsonObj.toString(), c);
@@ -132,7 +118,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(String json, Class<V> c) {
         try {
             return mapper.readValue(json, c);
@@ -141,7 +126,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(URL url, TypeReference<V> type) {
         try {
             return mapper.readValue(url, type);
@@ -150,7 +134,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(InputStream inputStream, TypeReference<V> type) {
         try {
             return mapper.readValue(inputStream, type);
@@ -159,7 +142,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(File file, TypeReference<V> type) {
         try {
             return mapper.readValue(file, type);
@@ -168,7 +150,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(Object jsonObj, TypeReference<V> type) {
         try {
             return mapper.readValue(jsonObj.toString(), type);
@@ -177,7 +158,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> V from(String json, TypeReference<V> type) {
         try {
             return mapper.readValue(json, type);
@@ -186,7 +166,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> String to(List<V> list) {
         try {
             return mapper.writeValueAsString(list);
@@ -195,7 +174,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> String to(V v) {
         try {
             return mapper.writeValueAsString(v);
@@ -204,7 +182,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <V> void toFile(String path, List<V> list) {
         try (Writer writer = new FileWriter(new File(path), true)) {
             mapper.writer().writeValues(writer).writeAll(list);
@@ -213,7 +190,6 @@ public class JsonUtil {
             log.error("jackson to file error, path: {}, list: {}", path, list, e);
         }
     }
-
     public static <V> void toFile(String path, V v) {
         try (Writer writer = new FileWriter(new File(path), true)) {
             mapper.writer().writeValues(writer).write(v);
@@ -222,7 +198,6 @@ public class JsonUtil {
             log.error("jackson to file error, path: {}, obj: {}", path, v, e);
         }
     }
-
     public static String getString(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -239,7 +214,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static Integer getInt(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -256,7 +230,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static Long getLong(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -273,7 +246,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static Double getDouble(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -290,7 +262,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static BigInteger getBigInteger(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return new BigInteger(String.valueOf(0.00));
@@ -307,7 +278,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static BigDecimal getBigDecimal(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -324,7 +294,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static boolean getBoolean(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return false;
@@ -341,7 +310,6 @@ public class JsonUtil {
             return false;
         }
     }
-
     public static byte[] getByte(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -358,7 +326,6 @@ public class JsonUtil {
             return null;
         }
     }
-
     public static <T> ArrayList<T> getList(String json, String key) {
         if (StringUtils.isEmpty(json)) {
             return null;
@@ -377,7 +344,6 @@ public class JsonUtil {
             return json;
         }
     }
-
     private static <T> void add(JsonNode jsonNode, String key, T value) {
         if (value instanceof String) {
             ((ObjectNode) jsonNode).put(key, (String) value);
@@ -403,7 +369,6 @@ public class JsonUtil {
             ((ObjectNode) jsonNode).put(key, to(value));
         }
     }
-
     public static String remove(String json, String key) {
         try {
             JsonNode node = mapper.readTree(json);
@@ -414,7 +379,6 @@ public class JsonUtil {
             return json;
         }
     }
-
     public static <T> String update(String json, String key, T value) {
         try {
             JsonNode node = mapper.readTree(json);
@@ -426,7 +390,6 @@ public class JsonUtil {
             return json;
         }
     }
-
     public static String format(String json) {
         try {
             JsonNode node = mapper.readTree(json);
@@ -436,7 +399,6 @@ public class JsonUtil {
             return json;
         }
     }
-
     public static boolean isJson(String json) {
         try {
             mapper.readTree(json);
@@ -446,11 +408,9 @@ public class JsonUtil {
             return false;
         }
     }
-
     private static InputStream getResourceStream(String name) {
         return JsonUtil.class.getClassLoader().getResourceAsStream(name);
     }
-
     private static InputStreamReader getResourceReader(InputStream inputStream) {
         if (null == inputStream) {
             return null;
