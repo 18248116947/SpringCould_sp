@@ -2653,3 +2653,237 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2019-06-27 08:44:06,358 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-06-27 08:44:06,361 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-27 08:44:06,361 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp08-hystrix-dashboard\src\test\resources
+2019-06-27 19:42:23,245 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-27 19:44:43,960 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp01-commons:0.0.1-SNAPSHOT @ E:\test-STS\sp01-commons\pom.xml.
+2019-06-27 19:44:44,569 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp01-commons/src/main/java
+2019-06-27 19:44:44,570 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp01-commons/src/main/resources
+2019-06-27 19:44:44,571 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp01-commons/src/test/java
+2019-06-27 19:44:44,572 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp01-commons/src/test/resources
+2019-06-27 19:44:44,690 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-06-27 19:44:47,524 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-27 19:44:47,532 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:44:47,535 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-27 19:44:47,537 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:45:14,830 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp02-itemservice:0.0.1-SNAPSHOT @ E:\test-STS\sp02-itemservice\pom.xml.
+2019-06-27 19:45:15,613 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:16,239 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp02-itemservice/src/main/java
+2019-06-27 19:45:16,239 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp02-itemservice/src/main/resources
+2019-06-27 19:45:16,240 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp02-itemservice/src/main/resources
+2019-06-27 19:45:16,241 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp02-itemservice/src/test/java
+2019-06-27 19:45:16,600 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-06-27 19:45:18,639 [Worker-10: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:18,717 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:18,718 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:45:18,741 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:45:18,745 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:18,745 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp02-itemservice\src\test\resources
+2019-06-27 19:45:28,445 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp03-userservice:0.0.1-SNAPSHOT @ E:\test-STS\sp03-userservice\pom.xml.
+2019-06-27 19:45:29,111 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:29,401 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03-userservice/src/main/java
+2019-06-27 19:45:29,401 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp03-userservice/src/main/resources
+2019-06-27 19:45:29,405 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp03-userservice/src/main/resources
+2019-06-27 19:45:29,410 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03-userservice/src/test/java
+2019-06-27 19:45:29,895 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:45:31,408 [Worker-10: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:31,432 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:31,433 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:45:31,435 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:45:31,438 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:31,438 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp03-userservice\src\test\resources
+2019-06-27 19:45:38,062 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp04-orderservice:0.0.1-SNAPSHOT @ E:\test-STS\sp04-orderservice\pom.xml.
+2019-06-27 19:45:38,675 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:39,111 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp04-orderservice/src/main/java
+2019-06-27 19:45:39,111 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp04-orderservice/src/main/resources
+2019-06-27 19:45:39,140 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp04-orderservice/src/main/resources
+2019-06-27 19:45:39,145 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp04-orderservice/src/test/java
+2019-06-27 19:45:39,620 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-06-27 19:45:41,152 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:41,173 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:41,173 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:45:41,175 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:45:41,177 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:41,178 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp04-orderservice\src\test\resources
+2019-06-27 19:45:48,149 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp05-eureka:0.0.1-SNAPSHOT @ E:\test-STS\sp05-eureka\pom.xml.
+2019-06-27 19:45:49,190 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp05-eureka/src/main/java
+2019-06-27 19:45:49,191 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp05-eureka/src/main/resources
+2019-06-27 19:45:49,194 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp05-eureka/src/main/resources
+2019-06-27 19:45:49,199 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp05-eureka/src/test/java
+2019-06-27 19:45:49,462 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:45:50,898 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:50,899 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:45:50,900 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:45:50,903 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:45:50,903 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp05-eureka\src\test\resources
+2019-06-27 19:45:58,647 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp06-ribbon:0.0.1-SNAPSHOT @ E:\test-STS\sp06-ribbon\pom.xml.
+2019-06-27 19:45:59,235 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:45:59,490 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp06-ribbon/src/main/java
+2019-06-27 19:45:59,494 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp06-ribbon/src/main/resources
+2019-06-27 19:45:59,498 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp06-ribbon/src/main/resources
+2019-06-27 19:45:59,515 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp06-ribbon/src/test/java
+2019-06-27 19:45:59,965 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:46:01,427 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:46:01,440 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:01,441 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:46:01,442 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:46:01,446 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:01,446 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp06-ribbon\src\test\resources
+2019-06-27 19:46:13,972 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp07-hystrix:0.0.1-SNAPSHOT @ E:\test-STS\sp07-hystrix\pom.xml.
+2019-06-27 19:46:14,686 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:46:15,020 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp07-hystrix/src/main/java
+2019-06-27 19:46:15,021 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp07-hystrix/src/main/resources
+2019-06-27 19:46:15,024 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp07-hystrix/src/main/resources
+2019-06-27 19:46:15,028 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp07-hystrix/src/test/java
+2019-06-27 19:46:15,430 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:46:16,763 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:46:16,791 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:16,791 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:46:16,793 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:46:16,795 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:16,795 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp07-hystrix\src\test\resources
+2019-06-27 19:46:28,010 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp08-hystrix-dashboard:0.0.1-SNAPSHOT @ E:\test-STS\sp08-hystrix-dashboard\pom.xml.
+2019-06-27 19:46:28,868 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp08-hystrix-dashboard/src/main/java
+2019-06-27 19:46:28,869 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp08-hystrix-dashboard/src/main/resources
+2019-06-27 19:46:28,871 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp08-hystrix-dashboard/src/main/resources
+2019-06-27 19:46:28,874 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp08-hystrix-dashboard/src/test/java
+2019-06-27 19:46:29,059 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:46:30,310 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:30,310 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:46:30,311 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:46:30,314 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:30,315 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp08-hystrix-dashboard\src\test\resources
+2019-06-27 19:46:43,702 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp09-feign:0.0.1-SNAPSHOT @ E:\test-STS\sp09-feign\pom.xml.
+2019-06-27 19:46:44,331 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:46:44,584 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp09-feign/src/main/java
+2019-06-27 19:46:44,584 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp09-feign/src/main/resources
+2019-06-27 19:46:44,589 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp09-feign/src/main/resources
+2019-06-27 19:46:44,593 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp09-feign/src/test/java
+2019-06-27 19:46:45,069 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-06-27 19:46:46,807 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:46:46,825 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:46,825 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:46:46,827 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:46:46,831 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:46:46,832 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp09-feign\src\test\resources
+2019-06-27 19:46:57,714 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-06-27 19:46:59,499 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp01-commons:0.0.1-SNAPSHOT @ E:\test-STS\sp01-commons\pom.xml.
+2019-06-27 19:46:59,645 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp02-itemservice:0.0.1-SNAPSHOT @ E:\test-STS\sp02-itemservice\pom.xml.
+2019-06-27 19:47:00,043 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:00,279 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp03-userservice:0.0.1-SNAPSHOT @ E:\test-STS\sp03-userservice\pom.xml.
+2019-06-27 19:47:00,330 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:00,442 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp04-orderservice:0.0.1-SNAPSHOT @ E:\test-STS\sp04-orderservice\pom.xml.
+2019-06-27 19:47:00,467 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:00,605 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp05-eureka:0.0.1-SNAPSHOT @ E:\test-STS\sp05-eureka\pom.xml.
+2019-06-27 19:47:00,811 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp06-ribbon:0.0.1-SNAPSHOT @ E:\test-STS\sp06-ribbon\pom.xml.
+2019-06-27 19:47:00,842 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:00,955 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp07-hystrix:0.0.1-SNAPSHOT @ E:\test-STS\sp07-hystrix\pom.xml.
+2019-06-27 19:47:00,997 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:01,110 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp08-hystrix-dashboard:0.0.1-SNAPSHOT @ E:\test-STS\sp08-hystrix-dashboard\pom.xml.
+2019-06-27 19:47:01,358 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tedu:sp09-feign:0.0.1-SNAPSHOT @ E:\test-STS\sp09-feign\pom.xml.
+2019-06-27 19:47:01,435 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:03,112 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp01-commons/src/main/java
+2019-06-27 19:47:03,112 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp01-commons/src/main/resources
+2019-06-27 19:47:03,113 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp01-commons/src/test/java
+2019-06-27 19:47:03,113 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp01-commons/src/test/resources
+2019-06-27 19:47:03,289 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp02-itemservice/src/main/java
+2019-06-27 19:47:03,290 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp02-itemservice/src/main/resources
+2019-06-27 19:47:03,290 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp02-itemservice/src/main/resources
+2019-06-27 19:47:03,291 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp02-itemservice/src/test/java
+2019-06-27 19:47:03,508 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03-userservice/src/main/java
+2019-06-27 19:47:03,508 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp03-userservice/src/main/resources
+2019-06-27 19:47:03,508 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp03-userservice/src/main/resources
+2019-06-27 19:47:03,509 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp03-userservice/src/test/java
+2019-06-27 19:47:03,665 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp04-orderservice/src/main/java
+2019-06-27 19:47:03,665 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp04-orderservice/src/main/resources
+2019-06-27 19:47:03,665 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp04-orderservice/src/main/resources
+2019-06-27 19:47:03,666 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp04-orderservice/src/test/java
+2019-06-27 19:47:03,819 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp05-eureka/src/main/java
+2019-06-27 19:47:03,819 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp05-eureka/src/main/resources
+2019-06-27 19:47:03,819 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp05-eureka/src/main/resources
+2019-06-27 19:47:03,820 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp05-eureka/src/test/java
+2019-06-27 19:47:04,010 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp06-ribbon/src/main/java
+2019-06-27 19:47:04,010 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp06-ribbon/src/main/resources
+2019-06-27 19:47:04,010 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp06-ribbon/src/main/resources
+2019-06-27 19:47:04,011 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp06-ribbon/src/test/java
+2019-06-27 19:47:04,216 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp07-hystrix/src/main/java
+2019-06-27 19:47:04,216 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp07-hystrix/src/main/resources
+2019-06-27 19:47:04,217 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp07-hystrix/src/main/resources
+2019-06-27 19:47:04,217 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp07-hystrix/src/test/java
+2019-06-27 19:47:04,433 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp08-hystrix-dashboard/src/main/java
+2019-06-27 19:47:04,434 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp08-hystrix-dashboard/src/main/resources
+2019-06-27 19:47:04,434 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp08-hystrix-dashboard/src/main/resources
+2019-06-27 19:47:04,434 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp08-hystrix-dashboard/src/test/java
+2019-06-27 19:47:04,585 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp09-feign/src/main/java
+2019-06-27 19:47:04,585 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp09-feign/src/main/resources
+2019-06-27 19:47:04,585 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sp09-feign/src/main/resources
+2019-06-27 19:47:04,586 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sp09-feign/src/test/java
+2019-06-27 19:47:05,404 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2019-06-27 19:47:05,859 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-27 19:47:05,861 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:05,864 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-27 19:47:05,865 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:07,036 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:07,078 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:07,079 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:07,102 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:07,105 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:07,106 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp02-itemservice\src\test\resources
+2019-06-27 19:47:08,334 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:08,352 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:08,352 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:08,354 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:08,356 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:08,356 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp03-userservice\src\test\resources
+2019-06-27 19:47:09,269 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:09,283 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:09,283 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:09,285 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:09,287 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:09,287 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp04-orderservice\src\test\resources
+2019-06-27 19:47:10,141 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:10,142 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:10,143 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:10,146 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:10,146 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp05-eureka\src\test\resources
+2019-06-27 19:47:11,104 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:11,110 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:11,110 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:11,111 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:11,113 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:11,113 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp06-ribbon\src\test\resources
+2019-06-27 19:47:12,189 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:12,201 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:12,202 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:12,203 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:12,205 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:12,205 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp07-hystrix\src\test\resources
+2019-06-27 19:47:13,001 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:13,002 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:13,002 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:13,004 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:13,004 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp08-hystrix-dashboard\src\test\resources
+2019-06-27 19:47:13,936 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:13,946 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:13,947 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-27 19:47:13,948 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-27 19:47:13,952 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-27 19:47:13,952 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\test-STS\sp09-feign\src\test\resources
+2019-06-27 19:47:47,311 [Worker-8: Launching sp03-userservice - Sp03UserserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:47,316 [Worker-14: Launching sp02-itemservice-8002] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:47,405 [Worker-5: Launching sp02-itemservice-8001] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:47,458 [Worker-8: Launching sp03-userservice - Sp03UserserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:47,521 [Worker-5: Launching sp02-itemservice-8001] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:47,570 [Worker-14: Launching sp02-itemservice-8002] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:47,632 [Worker-14: Launching sp02-itemservice-8002] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:47,669 [Worker-8: Launching sp03-userservice - Sp03UserserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:48,653 [Worker-11: Launching sp04-orderservice - Sp04OrderserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:48,802 [Worker-11: Launching sp04-orderservice - Sp04OrderserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:48,921 [Worker-11: Launching sp04-orderservice - Sp04OrderserviceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:57,389 [Worker-8: Launching sp07-hystrix - Sp07HystrixApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:57,438 [Worker-4: Launching sp06-ribbon - Sp06RibbonApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:47:57,568 [Worker-4: Launching sp06-ribbon - Sp06RibbonApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:58,015 [Worker-4: Launching sp06-ribbon - Sp06RibbonApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:58,280 [Worker-8: Launching sp07-hystrix - Sp07HystrixApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:47:58,356 [Worker-8: Launching sp07-hystrix - Sp07HystrixApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:48:02,384 [Worker-11: Launching sp09-feign - Sp09FeignApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier  to /sp01-commons/target/classes
+2019-06-27 19:48:02,541 [Worker-11: Launching sp09-feign - Sp09FeignApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes
+2019-06-27 19:48:02,633 [Worker-11: Launching sp09-feign - Sp09FeignApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sp01-commons: com.tedu:sp01-commons:0.0.1-SNAPSHOT with classifier null to /sp01-commons/target/classes

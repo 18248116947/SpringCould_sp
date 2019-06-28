@@ -6,6 +6,15 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\test-STS\sp09-feign"/>
+			<item value="E:\test-STS\sp08-hystrix-dashboard"/>
+			<item value="E:\test-STS\sp07-hystrix"/>
+			<item value="E:\test-STS\sp06-ribbon"/>
+			<item value="E:\test-STS\sp05-eureka"/>
+			<item value="E:\test-STS\sp04-orderservice"/>
+			<item value="E:\test-STS\sp03-userservice"/>
+			<item value="E:\test-STS\sp02-itemservice"/>
+			<item value="E:\test-STS\sp01-commons"/>
 			<item value="E:\test-STS\spring-cloud-repo-springcloud05"/>
 		</list>
 		<list key="projectNameTemplate">
